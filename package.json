@@ -1,0 +1,15 @@
+{
+  "name": "webcorevitals-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^8.5.1"
+  }
+}
