@@ -7,8 +7,6 @@ const config = require("./config.js");
 const logRun = require("./helper/logRun.js");
 const percentile = require("./helper/percentile.js");
 
-const PAGE = "https://lvh.me:3000";
-
 const statsOutput = {
   scores: {},
 };
@@ -24,7 +22,7 @@ const checkPage = async () => {
     port: chrome.port,
   };
 
-  const runnerResult = await lighthouse(PAGE, options, config);
+  const runnerResult = await lighthouse(config.page, options, config);
 
   if (config.json) {
     const report = runnerResult.report;

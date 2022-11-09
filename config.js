@@ -22,6 +22,7 @@ module.exports = {
     headless: HEADLESS,
     json: JSON,
     device: DESKTOP ? 'desktop': 'mobile',
-    runs: 30
+    runs: 30,
+    page: 'https://lvh.me:3000'
   };
   
