@@ -5,8 +5,8 @@ Run the lighthouse audit multiple times to get a less noisy version of the resul
 
 ## Getting started
 
-1 - `yarn`
-2 - `yarn start`
+1. `yarn`
+2.  `yarn start`
 
 ## Config
 In `config.js` you can configure the page to request and the number of iterations
