@@ -1,8 +1,8 @@
 const getScreenParams = require("./config/geScreenParams");
 
-const DESKTOP = false;
+const DESKTOP = true;
 const HEADLESS = true;
-const JSON = true;
+const JSON = false;
 
 module.exports = {
     extends: "lighthouse:default",
@@ -22,6 +22,6 @@ module.exports = {
     headless: HEADLESS,
     json: JSON,
     device: DESKTOP ? 'desktop': 'mobile',
-    runs: 15
+    runs: 30
   };
   
